@@ -69,8 +69,17 @@ python train.py --resume checkpoints/checkpoint_step_10.pt
 Generate text using a trained model checkpoint:
 
 ```bash
-python inference.py --checkpoint checkpoints/checkpoint_step_50.pt --prompt "Once upon a time" --max_length 100
+python inference.py --checkpoint checkpoints/checkpoint_step_50.pt --prompt "Judge: Hear me speak!," --max_length 100
 ```
+
+Generated text:
+```bash
+Judge: Hear me speak!
+Here, madmen, I fear I have been contrived. defend me,
+That I may not be murdered!
+It is that health thou livest'st with health
+In the state of your metrical-stchamber,
+
 
 ## Distributed Training
 
