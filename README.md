@@ -96,6 +96,10 @@ The training loop includes periodic evaluation:
 
 Weights are saved on google drive, links can be found in checkpoints folder.
 
+## Notes
+
+We will add our own tokenizer soon. Currently, we are using tiktoken gpt-2 tokenizer.
+
 ## Acknowledgments
 
 - Hugging Face for providing pretrained model weights.
